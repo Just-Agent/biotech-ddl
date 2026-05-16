@@ -1,6 +1,6 @@
 {
   "topicId": "biotech-ddl",
-  "generatedAt": "2026-05-15T23:49:10.124Z",
+  "generatedAt": "2026-05-16T09:03:58.572Z",
   "sourcePolicy": "Chinese-first display. Dates are preserved from the hub dataset; crawlers must verify against official pages before strict mode.",
   "sourceFamilies": [
     {
@@ -34,87 +34,10 @@
   ],
   "itemSources": [
     {
-      "name": "DREAM Challenges",
-      "url": "https://dreamchallenges.org",
+      "name": "DrivenData Health Competitions",
+      "url": "https://www.drivendata.org/competitions/66/flu-shot-learning/",
       "type": "item-source",
-      "confidence": "official-or-official-entry",
-      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
-    },
-    {
-      "name": "CASP Prediction Center",
-      "url": "https://predictioncenter.org",
-      "type": "item-source",
-      "confidence": "official-or-official-entry",
-      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
-    },
-    {
-      "name": "Kaggle Competitions",
-      "url": "https://www.kaggle.com/competitions",
-      "type": "item-source",
-      "confidence": "official-or-official-entry",
-      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
-    },
-    {
-      "name": "Grand Challenge",
-      "url": "https://grand-challenge.org",
-      "type": "item-source",
-      "confidence": "official-or-official-entry",
-      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
-    },
-    {
-      "name": "ISCB",
-      "url": "https://www.iscb.org",
-      "type": "item-source",
-      "confidence": "official-or-official-entry",
-      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
-    },
-    {
-      "name": "RECOMB",
-      "url": "https://recomb.org",
-      "type": "item-source",
-      "confidence": "official-or-official-entry",
-      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
-    },
-    {
-      "name": "Open Problems in Single-Cell Analysis",
-      "url": "https://openproblems.bio",
-      "type": "item-source",
-      "confidence": "official-or-official-entry",
-      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
-    },
-    {
-      "name": "Therapeutics Data Commons",
-      "url": "https://tdcommons.ai",
-      "type": "item-source",
-      "confidence": "official-or-official-entry",
-      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
-    },
-    {
-      "name": "grand-challenge.org",
-      "url": "https://grand-challenge.org",
-      "type": "item-source",
-      "confidence": "official-or-official-entry",
-      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
-    },
-    {
-      "name": "DrivenData Competitions",
-      "url": "https://www.drivendata.org/competitions/",
-      "type": "item-source",
-      "confidence": "official-or-official-entry",
-      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
-    },
-    {
-      "name": "n2c2 / DBMI",
-      "url": "https://www.n2c2.dbmi.hms.harvard.edu",
-      "type": "item-source",
-      "confidence": "official-or-official-entry",
-      "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
-    },
-    {
-      "name": "BioCreative",
-      "url": "https://biocreative.bioinformatics.udel.edu",
-      "type": "item-source",
-      "confidence": "official-or-official-entry",
+      "confidence": "needs-deadline-verification",
       "note": "来自当前 Just-DDL 数据项；具体日期仍以链接页面为准。"
     }
   ]

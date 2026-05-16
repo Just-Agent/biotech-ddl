@@ -12,9 +12,9 @@
 
 | 指标 | 数值 |
 | --- | ---: |
-| 当前事件 | 16 |
+| 当前事件 | 2 |
 | 来源族 | 4 |
-| 下一条 | DREAM Challenge Registration / 2026-07-01 |
+| 下一条 | Flu Shot Learning: Predict H1N1 and Seasonal Flu Vaccines / 2027-07-30 |
 
 ## 数据链路
 
@@ -22,7 +22,7 @@
 
 - `data/items.json`: 事件数据，每条事件包含 `deadline`、`url`、`source`。
 - `data/sources.json`: 官方来源和聚合来源清单。
-- `scripts/crawl-sources.mjs`: source-specific crawler scaffold。
+- `scripts/crawl-sources.mjs`: source-specific crawler；解析失败时保留当前 `data/items.json`。
 - `scripts/validate-data.mjs`: 数据质量校验。
 - `scripts/link-check.mjs`: 链接检查，默认 warning-only，设置 `STRICT_LINK_CHECK=1` 后严格失败。
 
@@ -36,4 +36,4 @@ STRICT_LINK_CHECK=1 npm run link-check
 
 ## 自动更新
 
-`.github/workflows/update-data.yml` 每周运行 crawler、validator 和 link-check。当前阶段会保留人工精选数据，待各来源解析器补齐后再切换到严格发布流。
+`.github/workflows/update-data.yml` 每周运行 crawler、validator 和 link-check。Pages 会优先读取 `data/items.json`，因此自动更新后会显示最新倒计时。

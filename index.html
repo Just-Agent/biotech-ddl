@@ -106,7 +106,7 @@
         <h1>生物医药与健康 AI</h1>
         <p class="lead">生物医药、医学影像、基因组、蛋白质设计和健康 AI 挑战截止日。每条事件都显示倒计时，并保留来源入口，方便后续 crawler 自动校验。</p>
         <div class="stats">
-          <div class="stat"><strong>16</strong><span>活跃条目</span></div>
+          <div class="stat"><strong id="itemCount">-</strong><span>活跃条目</span></div>
           <div class="stat"><strong>4</strong><span>来源族</span></div>
           <div class="stat"><strong id="nextDays">-</strong><span>下一条</span></div>
         </div>
@@ -129,9 +129,9 @@
   </main>
   <footer>生物医药与健康 AI DDL is part of Just-DDL Network. Generated as a production-ready topic repository scaffold.</footer>
   <script>
-    const items = [{"id":"biotech-ddl-dream-challenge-registration-2026-07-01","title":"DREAM Challenge Registration","deadline":"2026-07-01T23:59:59","dateRange":"Jul 2026","location":"Online","isOnline":true,"tags":["biotech","medical AI","genomics"],"url":"https://dreamchallenges.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"DREAM Challenges","type":"challenge"},{"id":"biotech-ddl-casp-protein-prediction-target-window-2026-07-19","title":"CASP Protein Prediction Target Window","deadline":"2026-07-19T23:59:59","dateRange":"Jul 2026","location":"Online","isOnline":true,"tags":["biotech","medical AI","genomics"],"url":"https://predictioncenter.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"CASP Prediction Center","type":"challenge"},{"id":"biotech-ddl-kaggle-biomedical-image-challenge-2026-08-06","title":"Kaggle Biomedical Image Challenge","deadline":"2026-08-06T23:59:59","dateRange":"Aug 2026","location":"Online","isOnline":true,"tags":["biotech","medical AI","genomics"],"url":"https://www.kaggle.com/competitions","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"Kaggle Competitions","type":"challenge"},{"id":"biotech-ddl-miccai-grand-challenge-registration-2026-08-24","title":"MICCAI Grand Challenge Registration","deadline":"2026-08-24T23:59:59","dateRange":"Aug 2026","location":"Online","isOnline":true,"tags":["biotech","medical AI","genomics"],"url":"https://grand-challenge.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"Grand Challenge","type":"challenge"},{"id":"biotech-ddl-ismb-eccb-proceedings-paper-2026-09-11","title":"ISMB/ECCB Proceedings Paper","deadline":"2026-09-11T23:59:59","dateRange":"Sep 2026","location":"Online","isOnline":true,"tags":["biotech","medical AI","genomics"],"url":"https://www.iscb.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"ISCB","type":"challenge"},{"id":"biotech-ddl-recomb-paper-submission-2026-09-29","title":"RECOMB Paper Submission","deadline":"2026-09-29T23:59:59","dateRange":"Sep 2026","location":"Online","isOnline":true,"tags":["biotech","medical AI","genomics"],"url":"https://recomb.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"RECOMB","type":"challenge"},{"id":"biotech-ddl-single-cell-perturbation-challenge-2026-10-17","title":"Single-Cell Perturbation Challenge","deadline":"2026-10-17T23:59:59","dateRange":"Oct 2026","location":"Online","isOnline":true,"tags":["biotech","medical AI","genomics"],"url":"https://openproblems.bio","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"Open Problems in Single-Cell Analysis","type":"challenge"},{"id":"biotech-ddl-genomics-variant-calling-benchmark-2026-11-04","title":"Genomics Variant Calling Benchmark","deadline":"2026-11-04T23:59:59","dateRange":"Nov 2026","location":"Online","isOnline":true,"tags":["biotech","medical AI","genomics"],"url":"https://www.kaggle.com/competitions","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"Kaggle Competitions","type":"challenge"},{"id":"biotech-ddl-drug-discovery-benchmark-sprint-2026-11-22","title":"Drug Discovery Benchmark Sprint","deadline":"2026-11-22T23:59:59","dateRange":"Nov 2026","location":"Online","isOnline":true,"tags":["biotech","medical AI","genomics"],"url":"https://tdcommons.ai","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"Therapeutics Data Commons","type":"challenge"},{"id":"biotech-ddl-protein-design-hackathon-2026-12-10","title":"Protein Design Hackathon","deadline":"2026-12-10T23:59:59","dateRange":"Dec 2026","location":"Online","isOnline":true,"tags":["biotech","medical AI","genomics"],"url":"https://grand-challenge.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"grand-challenge.org","type":"challenge"},{"id":"biotech-ddl-medical-qa-safety-evaluation-2026-12-28","title":"Medical QA Safety Evaluation","deadline":"2026-12-28T23:59:59","dateRange":"Dec 2026","location":"Online","isOnline":true,"tags":["biotech","medical AI","genomics"],"url":"https://grand-challenge.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"grand-challenge.org","type":"challenge"},{"id":"biotech-ddl-digital-pathology-challenge-2027-01-15","title":"Digital Pathology Challenge","deadline":"2027-01-15T23:59:59","dateRange":"Jan 2027","location":"Online","isOnline":true,"tags":["biotech","medical AI","genomics"],"url":"https://grand-challenge.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"Grand Challenge","type":"challenge"},{"id":"biotech-ddl-wearable-health-data-challenge-2027-02-02","title":"Wearable Health Data Challenge","deadline":"2027-02-02T23:59:59","dateRange":"Feb 2027","location":"Online","isOnline":true,"tags":["biotech","medical AI","genomics"],"url":"https://www.drivendata.org/competitions/","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"DrivenData Competitions","type":"challenge"},{"id":"biotech-ddl-clinical-nlp-shared-task-2027-02-20","title":"Clinical NLP Shared Task","deadline":"2027-02-20T23:59:59","dateRange":"Feb 2027","location":"Online","isOnline":true,"tags":["biotech","medical AI","genomics"],"url":"https://www.n2c2.dbmi.hms.harvard.edu","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"n2c2 / DBMI","type":"challenge"},{"id":"biotech-ddl-ai-for-healthcare-workshop-paper-2027-03-10","title":"AI for Healthcare Workshop Paper","deadline":"2027-03-10T23:59:59","dateRange":"Mar 2027","location":"Online","isOnline":true,"tags":["biotech","medical AI","genomics"],"url":"https://grand-challenge.org","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"grand-challenge.org","type":"challenge"},{"id":"biotech-ddl-biocreative-track-submission-2027-03-28","title":"BioCreative Track Submission","deadline":"2027-03-28T23:59:59","dateRange":"Mar 2027","location":"Online","isOnline":true,"tags":["biotech","medical AI","genomics"],"url":"https://biocreative.bioinformatics.udel.edu","status":"upcoming","description":"已登记官方或权威聚合来源入口；具体截止时间需以链接页面为准，后续由专题 crawler 抽取并校验。","stage":"Source board","source":"BioCreative","type":"challenge"}];
+    let items = [];
+    let sorted = [];
     const formatter = new Intl.DateTimeFormat('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' });
-    const sorted = [...items].sort((a, b) => new Date(a.deadline) - new Date(b.deadline));
     function diffParts(deadline) {
       const ms = new Date(deadline) - new Date();
       const positive = Math.max(0, ms);
@@ -141,6 +141,7 @@
       return { days, hours, minutes, ended: ms < 0 };
     }
     function render() {
+      sorted = [...items].sort((a, b) => new Date(a.deadline) - new Date(b.deadline));
       const root = document.getElementById('events');
       const htmlEscape = value => String(value || '')
         .replaceAll('&', '&amp;')
@@ -148,6 +149,11 @@
         .replaceAll('>', '&gt;')
         .replaceAll('"', '&quot;')
         .replaceAll("'", '&#39;');
+      if (!sorted.length) {
+        root.innerHTML = '<article class="event"><h3>暂无可展示条目</h3><div class="desc">数据文件暂不可用，请稍后刷新。</div></article>';
+        document.getElementById('itemCount').textContent = '0';
+        return;
+      }
       root.innerHTML = sorted.map(item => {
         const diff = diffParts(item.deadline);
         const tags = (item.tags || []).map(tag => '<span class="tag">' + htmlEscape(tag) + '</span>').join('');
@@ -165,10 +171,21 @@
           '<a class="button" href="' + htmlEscape(encodeURI(item.url)) + '">查看来源</a>' +
         '</article>';
       }).join('');
+      document.getElementById('itemCount').textContent = String(sorted.length);
       const next = sorted.find(item => new Date(item.deadline) >= new Date()) || sorted[0];
       if (next) document.getElementById('nextDays').textContent = diffParts(next.deadline).days + ' 天后';
     }
-    render();
+    async function loadItems() {
+      try {
+        const response = await fetch('data/items.json', { cache: 'no-store' });
+        if (response.ok) {
+          const freshItems = await response.json();
+          if (Array.isArray(freshItems) && freshItems.length) items = freshItems;
+        }
+      } catch {}
+      render();
+    }
+    loadItems();
     setInterval(render, 60000);
   </script>
 </body>

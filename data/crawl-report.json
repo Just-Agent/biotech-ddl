@@ -1,0 +1,112 @@
+{
+  "topicId": "biotech-ddl",
+  "generatedAt": "2026-05-16T09:04:17.827Z",
+  "adapterCount": 4,
+  "reachableCount": 2,
+  "parsedItemCount": 2,
+  "previousParsedItemCount": 2,
+  "parserHealthy": true,
+  "parserDropOk": true,
+  "adapters": [
+    {
+      "sourceId": "grand-challenge",
+      "source": "Grand Challenge",
+      "url": "https://grand-challenge.org",
+      "items": [],
+      "reachable": true,
+      "httpStatus": 200,
+      "finalUrl": "https://grand-challenge.org/",
+      "title": "Grand Challenge",
+      "contentLength": 65070,
+      "fetchedAt": "2026-05-16T09:04:10.697Z",
+      "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
+      "error": null
+    },
+    {
+      "sourceId": "camda",
+      "source": "CAMDA",
+      "url": "https://camda.info",
+      "items": [],
+      "reachable": false,
+      "httpStatus": null,
+      "finalUrl": null,
+      "title": null,
+      "contentLength": null,
+      "fetchedAt": "2026-05-16T09:04:10.810Z",
+      "note": "Source fetch failed: Timeout after 7000ms. Curated data/items.json preserved.",
+      "error": "Timeout after 7000ms"
+    },
+    {
+      "sourceId": "biocreative",
+      "source": "BioCreative",
+      "url": "https://biocreative.bioinformatics.udel.edu",
+      "items": [],
+      "reachable": false,
+      "httpStatus": 403,
+      "finalUrl": "https://biocreative.bioinformatics.udel.edu/",
+      "title": "403 Forbidden",
+      "contentLength": 199,
+      "fetchedAt": "2026-05-16T09:04:10.813Z",
+      "note": "Source returned HTTP 403. Curated data/items.json preserved.",
+      "error": null
+    },
+    {
+      "sourceId": "drivendata-health",
+      "source": "DrivenData Health Competitions",
+      "url": "https://www.drivendata.org/competitions/",
+      "items": [
+        {
+          "id": "dd-health-66-flu-shot-learning",
+          "title": "Flu Shot Learning: Predict H1N1 and Seasonal Flu Vaccines",
+          "deadline": "2027-07-30T23:59:00Z",
+          "dateRange": "July 30, 2027, 11:59 p.m. UTC",
+          "location": "Online",
+          "isOnline": true,
+          "tags": [
+            "biotech",
+            "health",
+            "DrivenData",
+            "competition"
+          ],
+          "url": "https://www.drivendata.org/competitions/66/flu-shot-learning/",
+          "status": "upcoming",
+          "description": "Parsed from DrivenData health competitions listing. Deadline is read from the card end-date tooltip.",
+          "stage": "Deadline",
+          "source": "DrivenData Health Competitions",
+          "type": "challenge"
+        },
+        {
+          "id": "dd-health-44-dengai-predicting-disease-spread",
+          "title": "DengAI: Predicting Disease Spread",
+          "deadline": "2027-10-05T23:59:00Z",
+          "dateRange": "Oct. 5, 2027, 11:59 p.m. UTC",
+          "location": "Online",
+          "isOnline": true,
+          "tags": [
+            "biotech",
+            "health",
+            "DrivenData",
+            "competition"
+          ],
+          "url": "https://www.drivendata.org/competitions/44/dengai-predicting-disease-spread/",
+          "status": "upcoming",
+          "description": "Parsed from DrivenData health competitions listing. Deadline is read from the card end-date tooltip.",
+          "stage": "Deadline",
+          "source": "DrivenData Health Competitions",
+          "type": "challenge"
+        }
+      ],
+      "reachable": true,
+      "httpStatus": 200,
+      "finalUrl": "https://www.drivendata.org/competitions/",
+      "title": "\n      Competitions\n    ",
+      "contentLength": 339647,
+      "fetchedAt": "2026-05-16T09:04:10.816Z",
+      "note": "Parsed 2 health items from DrivenData; rejected 12 non-health or invalid entries.",
+      "error": null,
+      "parsedItemCount": 2,
+      "invalidItemCount": 12,
+      "parserHealthy": true
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "topicId": "biotech-ddl",
-  "generatedAt": "2026-05-16T09:04:17.827Z",
+  "generatedAt": "2026-05-18T06:35:28.978Z",
   "adapterCount": 4,
   "reachableCount": 2,
   "parsedItemCount": 2,
@@ -17,8 +17,8 @@
       "httpStatus": 200,
       "finalUrl": "https://grand-challenge.org/",
       "title": "Grand Challenge",
-      "contentLength": 65070,
-      "fetchedAt": "2026-05-16T09:04:10.697Z",
+      "contentLength": 65072,
+      "fetchedAt": "2026-05-18T06:35:21.928Z",
       "note": "Source reachable. Curated data/items.json preserved until item parser is implemented.",
       "error": null
     },
@@ -32,7 +32,7 @@
       "finalUrl": null,
       "title": null,
       "contentLength": null,
-      "fetchedAt": "2026-05-16T09:04:10.810Z",
+      "fetchedAt": "2026-05-18T06:35:21.977Z",
       "note": "Source fetch failed: Timeout after 7000ms. Curated data/items.json preserved.",
       "error": "Timeout after 7000ms"
     },
@@ -46,7 +46,7 @@
       "finalUrl": "https://biocreative.bioinformatics.udel.edu/",
       "title": "403 Forbidden",
       "contentLength": 199,
-      "fetchedAt": "2026-05-16T09:04:10.813Z",
+      "fetchedAt": "2026-05-18T06:35:21.979Z",
       "note": "Source returned HTTP 403. Curated data/items.json preserved.",
       "error": null
     },
@@ -101,7 +101,7 @@
       "finalUrl": "https://www.drivendata.org/competitions/",
       "title": "\n      Competitions\n    ",
       "contentLength": 339647,
-      "fetchedAt": "2026-05-16T09:04:10.816Z",
+      "fetchedAt": "2026-05-18T06:35:21.980Z",
       "note": "Parsed 2 health items from DrivenData; rejected 12 non-health or invalid entries.",
       "error": null,
       "parsedItemCount": 2,
